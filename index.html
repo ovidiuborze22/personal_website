@@ -1,96 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Website - Ovidiu Borze</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c9ae041a77.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <!-- ------------- Header Section ------------- -->
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/logo.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>BSc (Hons) Computing Science Graduate</p>
-                <h1>Hi, I'm <span>Ovidiu</span> Borze <br>From London, <br> United Kingdom</h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>BSc (Hons) Computing Science Graduate</p>
+          <h1>
+            Hi, I'm <span>Ovidiu</span> Borze <br />From London, <br />
+            United Kingdom
+          </h1>
         </div>
+      </div>
     </div>
     <!-- ------------- About Me Section ------------- -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/user.png">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I'm a dynamic and motivated computing science graduate with a strong background in software development and problem-solving. 
-                        I'm a proactive learner who seeks out challenges and is eager to contribute to technology-driven environments. 
-                        I'm excited to collaborate with innovative IT teams to further refine my expertise.<br><br> 
-                        My academic foundation is strong, but I understand the importance of continuous learning in the rapidly evolving tech industry. 
-                        I've enhanced my skills through courses on platforms like Udemy, freeCodeCamp, and LinkedIn Learning, earning several certificates as a testament to my dedication. 
-                        I also gained practical experience through the Forage Online Virtual Experience, which taught me how to approach real-world challenges. 
-                        To stay up-to-date in the tech world, I regularly engage in coding challenges on platforms like Hackerrank, Leetcode, and Codesignal, honing my problem-solving skills and staying current with emerging technologies. 
-                        I'm available for full-time roles and ready to start immediately.</p>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm a dynamic and motivated computing science graduate with a
+              strong background in software development and problem-solving. I'm
+              a proactive learner who seeks out challenges and is eager to
+              contribute to technology-driven environments. I'm excited to
+              collaborate with innovative IT teams to further refine my
+              expertise.<br /><br />
+              My academic foundation is strong, but I understand the importance
+              of continuous learning in the rapidly evolving tech industry. I've
+              enhanced my skills through courses on platforms like Udemy,
+              freeCodeCamp, and LinkedIn Learning, earning several certificates
+              as a testament to my dedication. I also gained practical
+              experience through the Forage Online Virtual Experience, which
+              taught me how to approach real-world challenges. To stay
+              up-to-date in the tech world, I regularly engage in coding
+              challenges on platforms like Hackerrank, Leetcode, and Codesignal,
+              honing my problem-solving skills and staying current with emerging
+              technologies. I'm available for full-time roles and ready to start
+              immediately.
+            </p>
 
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                                <li><span>Web Development</span><br>Web App Development</li>
-                                <li><span>App Development</span><br>Building Android/iOS Apps</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>2023 - Current</span><br>Software Developer Internship at 10zyme</li>
-                                <li><span>2023 - 2023</span><br>Software Development Virtual Experience at JP Morgan Co.</li>
-                                <li><span>2018 -2023</span><br>Shift Manager at McDonald</li>        
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>2020 - 2023</span><br> BSc Computing Science at Southampton Solent University</li>
-                                <li><span>2019 - 2013</span><br> Mathematics and Informatics at Bratca Theoretic NR-1 High School </li>                         
-                            </ul>
-                        </div>
-                </div>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/iOS Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - Current</span><br />Software Developer Internship
+                  at 10zyme
+                </li>
+                <li>
+                  <span>2023 - 2023</span><br />Software Development Virtual
+                  Experience at JP Morgan Co.
+                </li>
+                <li><span>2018 -2023</span><br />Shift Manager at McDonald</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020 - 2023</span><br />
+                  BSc Computing Science at Southampton Solent University
+                </li>
+                <li>
+                  <span>2019 - 2013</span><br />
+                  Mathematics and Informatics at Bratca Theoretic NR-1 High
+                  School
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- -------------Services Section ------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Software Development</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data Analysis</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
 
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link")
-            document.getElementById(tabname).classList.add("active-tab")
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
-        
-    
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
     </script>
-</body>
+  </body>
 </html>
