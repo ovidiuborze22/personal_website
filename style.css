@@ -386,5 +386,16 @@ form .btn3 {
 /* -------- Copyright --------- */
 
 .copyright {
-    
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
 }
+
+.copyright i {
+    color: #8C52FF;
+}
+
+/* -------- css for small screen --------- */
