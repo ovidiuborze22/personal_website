@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: #fff;
@@ -396,6 +400,11 @@ form .btn3 {
 
 .copyright i {
     color: #8C52FF;
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -350px;
 }
 
 /* -------- css for small screen --------- */
